@@ -1,0 +1,47 @@
+{
+  "title": "Supplementary Information (SI) for Energy transfer and trapping in photosystem I with and without chlorophyll-f",
+  "creators": [
+    {
+      "name": "Ivo H.M. van Stokkum",
+      "affiliation": "Vrije Universiteit Amsterdam",
+      "orcid": "0000-0002-6143-2021"
+    },
+    {
+      "name": "Marc G. Müller",
+      "affiliation": "Max-Planck-Institut für chemische Energiekonversion"
+    },
+    {
+      "name": "J\u00f6rn Wei\u00dfenborn",
+      "affiliation": "Vrije Universiteit Amsterdam"
+    },
+    {
+      "name": "Sebastian Weigand",
+      "affiliation": "Vrije Universiteit Amsterdam"
+    },
+    {
+      "name": "Joris Snellenburg",
+      "affiliation": "Vrije Universiteit Amsterdam",
+      "orcid": "0000-0002-1428-0221"
+    },
+    {
+      "name": "Alfred R. Holzwarth",
+      "affiliation": "Max-Planck-Institut für chemische Energiekonversion"
+    }
+  ],
+  "keywords": [
+    "global analysis",
+    "target analysis",
+    "photosynthesis",
+    "fluorescence",
+    "transient absorption",
+    "ultrafast spectroscopy",
+    "time-resolved spectroscopy",
+    "biophysics",
+    "glotaran",
+    "python"
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "publication",
+  "publication_type": "softwaredocumentation"
+}
