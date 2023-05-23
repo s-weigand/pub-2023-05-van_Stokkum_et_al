@@ -10,6 +10,8 @@ Ivo H.M. van Stokkum 1,3* , Marc G. Müller 2 , Jörn Weißenborn 1 , Sebastian 
 
 <sub>*Correspondence: i.h.m.van.stokkum@vu.nl</sub>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7958154.svg)](https://doi.org/10.5281/zenodo.7958154)
+
 ## License
 
 Except where otherwise noted, the work in this repository is dual-licensed under `GNU Lesser General Public License v3.0 or later` ([LGPL-3.0-or-later](https://spdx.org/licenses/LGPL-3.0-or-later.html)) or `Creative Commons Attribution 4.0 International` [(CC-BY-4.0)](https://spdx.org/licenses/CC-BY-4.0.html).
