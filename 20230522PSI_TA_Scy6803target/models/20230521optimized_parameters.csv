@@ -40,6 +40,6 @@ irf.width1,5.71E-02,None,None,,,False,True
 irf.center2,0.303110003,None,None,,,False,True
 irf.width2,5.30E-02,None,None,,,False,True
 irf.disp1,-1.82624149,None,None,,,False,True
-irf.dispcenter,700,None,None,,,False,True
-osc.rates.1,7.73775625,None,None,,,False,True
-osc.freq.1,449.62088,None,None,,,False,True
+irf.dispcenter,700,None,None,,,False,False
+osc.rates.1,7.73775625,None,None,,,False,False
+osc.freq.1,449.62088,None,None,,,False,False
