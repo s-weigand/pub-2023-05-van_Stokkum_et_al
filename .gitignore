@@ -130,3 +130,5 @@ dmypy.json
 
 # Generated result files
 */results/
+
+pdfs/
