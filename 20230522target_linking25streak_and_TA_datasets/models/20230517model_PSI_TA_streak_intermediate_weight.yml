@@ -11,259 +11,269 @@ dataset:
   # FT7521FRLtr1:
   FRLtr1:
     group: streak
-    megacomplex: [complexFRL,freeChla,freeChlf]
-    megacomplex_scale: [scalem.1,scalem.FRLtr1a,scalem.FRLtr1f]
+    megacomplex: [complexFRL, freeChla, freeChlf]
+    megacomplex_scale: [scalem.1, scalem.FRLtr1a, scalem.FRLtr1f]
     initial_concentration: inputFRL
     irf: irfFRLtr1
     scale: scale.FRLtr1
   FRLtr2:
     group: streak
-    megacomplex: [complexFRL,freeChla,freeChlf]
-    megacomplex_scale: [scalem.1,scalem.FRLtr2a,scalem.FRLtr2f]
+    megacomplex: [complexFRL, freeChla, freeChlf]
+    megacomplex_scale: [scalem.1, scalem.FRLtr2a, scalem.FRLtr2f]
     initial_concentration: inputFRL
     irf: irfFRLtr2
     scale: scale.FRLtr2
   FRLtr4:
     group: streak
-    megacomplex: [complexFRL,freeChla,freeChlf]
-    megacomplex_scale: [scalem.1,scalem.FRLtr4a,scalem.FRLtr4f]
+    megacomplex: [complexFRL, freeChla, freeChlf]
+    megacomplex_scale: [scalem.1, scalem.FRLtr4a, scalem.FRLtr4f]
     initial_concentration: inputFRL
     irf: irfFRLtr4
     scale: scale.FRLtr4
   WLtr1:
     group: streak
-    megacomplex: [complexWL,freeChla,freeChla2]
-    megacomplex_scale: [scalem.1,scalem.WLtr1a,scalem.WLtr1a2]
+    megacomplex: [complexWL, freeChla, freeChla2]
+    megacomplex_scale: [scalem.1, scalem.WLtr1a, scalem.WLtr1a2]
     initial_concentration: inputWL
     irf: irfWLtr1
     scale: scale.WLtr1
   WLtr2:
     group: streak
-    megacomplex: [complexWL,freeChla,freeChla2]
-    megacomplex_scale: [scalem.1,scalem.WLtr2a,scalem.WLtr2a2]
+    megacomplex: [complexWL, freeChla, freeChla2]
+    megacomplex_scale: [scalem.1, scalem.WLtr2a, scalem.WLtr2a2]
     initial_concentration: inputWL
     irf: irfWLtr2
     scale: scale.WLtr2
   CF9212FRLtr1:
     group: streak
-    megacomplex: [CF9212complexFRL,CF9212freeChla,CF9212freeChlf]
-    megacomplex_scale: [CF9212scalem.1,CF9212scalem.FRLtr1a,CF9212scalem.FRLtr1f]
+    megacomplex: [CF9212complexFRL, CF9212freeChla, CF9212freeChlf]
+    megacomplex_scale:
+      [CF9212scalem.1, CF9212scalem.FRLtr1a, CF9212scalem.FRLtr1f]
     initial_concentration: CF9212inputFRL
     irf: CF9212irfFRLtr1
     scale: CF9212scale.FRLtr1
   CF9212FRLtr2:
     group: streak
-    megacomplex: [CF9212complexFRL,CF9212freeChla,CF9212freeChlf]
-    megacomplex_scale: [CF9212scalem.1,CF9212scalem.FRLtr2a,CF9212scalem.FRLtr2f]
+    megacomplex: [CF9212complexFRL, CF9212freeChla, CF9212freeChlf]
+    megacomplex_scale:
+      [CF9212scalem.1, CF9212scalem.FRLtr2a, CF9212scalem.FRLtr2f]
     initial_concentration: CF9212inputFRL
     irf: CF9212irfFRLtr2
     scale: CF9212scale.FRLtr2
   CF9212FRLtr4:
     group: streak
-    megacomplex: [CF9212complexFRL,CF9212freeChla,CF9212freeChlf]
-    megacomplex_scale: [CF9212scalem.1,CF9212scalem.FRLtr4a,CF9212scalem.FRLtr4f]
+    megacomplex: [CF9212complexFRL, CF9212freeChla, CF9212freeChlf]
+    megacomplex_scale:
+      [CF9212scalem.1, CF9212scalem.FRLtr4a, CF9212scalem.FRLtr4f]
     initial_concentration: CF9212inputFRL
     irf: CF9212irfFRLtr4
     scale: CF9212scale.FRLtr4
   CF9212WLtr1:
     group: streak
-    megacomplex: [CF9212complexWL,CF9212freeChla]
-    megacomplex_scale: [CF9212scalem.1,CF9212scalem.WLtr1a]
+    megacomplex: [CF9212complexWL, CF9212freeChla]
+    megacomplex_scale: [CF9212scalem.1, CF9212scalem.WLtr1a]
     initial_concentration: CF9212inputWL
     irf: CF9212irfWLtr1
     scale: CF9212scale.WLtr1
   CF9212WLtr2:
     group: streak
-    megacomplex: [CF9212complexWL,CF9212freeChla]
-    megacomplex_scale: [CF9212scalem.1,CF9212scalem.WLtr2a]
+    megacomplex: [CF9212complexWL, CF9212freeChla]
+    megacomplex_scale: [CF9212scalem.1, CF9212scalem.WLtr2a]
     initial_concentration: CF9212inputWL
     irf: CF9212irfWLtr2
     scale: CF9212scale.WLtr2
   CT7203FRLtr1:
     group: streak
-    megacomplex: [CT7203complexFRL,CT7203freeChla,CT7203freeChlf]
-    megacomplex_scale: [CT7203scalem.1,CT7203scalem.FRLtr1a,CT7203scalem.FRLtr1f]
+    megacomplex: [CT7203complexFRL, CT7203freeChla, CT7203freeChlf]
+    megacomplex_scale:
+      [CT7203scalem.1, CT7203scalem.FRLtr1a, CT7203scalem.FRLtr1f]
     initial_concentration: CT7203inputFRL
     irf: CT7203irfFRLtr1
     scale: CT7203scale.FRLtr1
   CT7203FRLtr2:
     group: streak
-    megacomplex: [CT7203complexFRL,CT7203freeChla,CT7203freeChlf]
-    megacomplex_scale: [CT7203scalem.1,CT7203scalem.FRLtr2a,CT7203scalem.FRLtr2f]
+    megacomplex: [CT7203complexFRL, CT7203freeChla, CT7203freeChlf]
+    megacomplex_scale:
+      [CT7203scalem.1, CT7203scalem.FRLtr2a, CT7203scalem.FRLtr2f]
     initial_concentration: CT7203inputFRL
     irf: CT7203irfFRLtr2
     scale: CT7203scale.FRLtr2
   CT7203FRLtr4:
     group: streak
-    megacomplex: [CT7203complexFRL,CT7203freeChla,CT7203freeChlf]
-    megacomplex_scale: [CT7203scalem.1,CT7203scalem.FRLtr4a,CT7203scalem.FRLtr4f]
+    megacomplex: [CT7203complexFRL, CT7203freeChla, CT7203freeChlf]
+    megacomplex_scale:
+      [CT7203scalem.1, CT7203scalem.FRLtr4a, CT7203scalem.FRLtr4f]
     initial_concentration: CT7203inputFRL
     irf: CT7203irfFRLtr4
     scale: CT7203scale.FRLtr4
   CT7203WLtr1:
     group: streak
-    megacomplex: [CT7203complexWL,CT7203freeChla,CT7203freeChla2]
-    megacomplex_scale: [CT7203scalem.1,CT7203scalem.WLtr1a,CT7203scalem.WLtr1a2]
+    megacomplex: [CT7203complexWL, CT7203freeChla, CT7203freeChla2]
+    megacomplex_scale:
+      [CT7203scalem.1, CT7203scalem.WLtr1a, CT7203scalem.WLtr1a2]
     initial_concentration: CT7203inputWL
     irf: CT7203irfWLtr1
     scale: CT7203scale.WLtr1
   CT7203WLtr2:
     group: streak
-    megacomplex: [CT7203complexWL,CT7203freeChla,CT7203freeChla2]
-    megacomplex_scale: [CT7203scalem.1,CT7203scalem.WLtr2a,CT7203scalem.WLtr2a2]
+    megacomplex: [CT7203complexWL, CT7203freeChla, CT7203freeChla2]
+    megacomplex_scale:
+      [CT7203scalem.1, CT7203scalem.WLtr2a, CT7203scalem.WLtr2a2]
     initial_concentration: CT7203inputWL
     irf: CT7203irfWLtr2
     scale: CT7203scale.WLtr2
   Syn7335FRLtr1:
     group: streak
-    megacomplex: [Syn7335complexFRL,Syn7335freeChla,Syn7335freeChlf]
-    megacomplex_scale: [Syn7335scalem.1,Syn7335scalem.FRLtr1a,Syn7335scalem.FRLtr1f]
+    megacomplex: [Syn7335complexFRL, Syn7335freeChla, Syn7335freeChlf]
+    megacomplex_scale:
+      [Syn7335scalem.1, Syn7335scalem.FRLtr1a, Syn7335scalem.FRLtr1f]
     initial_concentration: Syn7335inputFRL
     irf: Syn7335irfFRLtr1
     scale: Syn7335scale.FRLtr1
   Syn7335FRLtr2:
     group: streak
-    megacomplex: [Syn7335complexFRL,Syn7335freeChla,Syn7335freeChlf]
-    megacomplex_scale: [Syn7335scalem.1,Syn7335scalem.FRLtr2a,Syn7335scalem.FRLtr2f]
+    megacomplex: [Syn7335complexFRL, Syn7335freeChla, Syn7335freeChlf]
+    megacomplex_scale:
+      [Syn7335scalem.1, Syn7335scalem.FRLtr2a, Syn7335scalem.FRLtr2f]
     initial_concentration: Syn7335inputFRL
     irf: Syn7335irfFRLtr2
     scale: Syn7335scale.FRLtr2
   Syn7335FRLtr4:
     group: streak
-    megacomplex: [Syn7335complexFRL,Syn7335freeChla,Syn7335freeChlf]
-    megacomplex_scale: [Syn7335scalem.1,Syn7335scalem.FRLtr4a,Syn7335scalem.FRLtr4f]
+    megacomplex: [Syn7335complexFRL, Syn7335freeChla, Syn7335freeChlf]
+    megacomplex_scale:
+      [Syn7335scalem.1, Syn7335scalem.FRLtr4a, Syn7335scalem.FRLtr4f]
     initial_concentration: Syn7335inputFRL
     irf: Syn7335irfFRLtr4
     scale: Syn7335scale.FRLtr4
   Syn7335WLtr1:
     group: streak
-    megacomplex: [Syn7335complexWL,Syn7335freeChla]
-    megacomplex_scale: [Syn7335scalem.1,Syn7335scalem.WLtr1a]
+    megacomplex: [Syn7335complexWL, Syn7335freeChla]
+    megacomplex_scale: [Syn7335scalem.1, Syn7335scalem.WLtr1a]
     initial_concentration: Syn7335inputWL
     irf: Syn7335irfWLtr1
     scale: Syn7335scale.WLtr1
   Syn7335WLtr2:
     group: streak
-    megacomplex: [Syn7335complexWL,Syn7335freeChla]
-    megacomplex_scale: [Syn7335scalem.1,Syn7335scalem.WLtr2a]
+    megacomplex: [Syn7335complexWL, Syn7335freeChla]
+    megacomplex_scale: [Syn7335scalem.1, Syn7335scalem.WLtr2a]
     initial_concentration: Syn7335inputWL
     irf: Syn7335irfWLtr2
     scale: Syn7335scale.WLtr2
   BulkSAS:
     group: streak
     megacomplex:
-    - smc1
+      - smc1
     scale: scale.BulkSAS
   Red1SAS:
     group: streak
     megacomplex:
-    - smc2
+      - smc2
     scale: scale.Red1SAS
   Red2SAS:
     group: streak
     megacomplex:
-    - smc3
+      - smc3
     scale: scale.Red2SAS
   WLRCSAS:
     group: streak
     megacomplex:
-    - smc4
+      - smc4
     scale: scale.WLRCSAS
   Chlf1SAS:
     group: streak
     megacomplex:
-    - smc8
+      - smc8
     scale: scale.Chlf1SAS
   freeChlfSAS:
     group: streak
     megacomplex:
-    - smc12
+      - smc12
     scale: scale.freeChlfSAS
   Chlf2SAS:
     group: streak
     megacomplex:
-    - smc9
+      - smc9
     scale: scale.Chlf2SAS
   FRLRCSAS:
     group: streak
     megacomplex:
-    - smc10
+      - smc10
     scale: scale.FRLRCSAS
   Syn7335FRLRCSAS:
     group: streak
     megacomplex:
-    - Syn7335smc10
+      - Syn7335smc10
     scale: xscale.Syn7335FRLRCSAS
-# TA datasets
+  # TA datasets
   FRL670:
     # Q indicates quenching by the photo-oxidized RC
-    megacomplex: [complexFRL670,QcomplexFRL]
-    megacomplex_scale: [scalem.1,scalem.FRL670Q]
+    megacomplex: [complexFRL670, QcomplexFRL]
+    megacomplex_scale: [scalem.1, scalem.FRL670Q]
     initial_concentration: inputFRL670
     irf: irf1
     scale: scale.FRL670
   FRL700:
-    megacomplex: [complexFRL700,QcomplexFRL]
-    megacomplex_scale: [scalem.1,scalem.FRL670Q]
+    megacomplex: [complexFRL700, QcomplexFRL]
+    megacomplex_scale: [scalem.1, scalem.FRL670Q]
     initial_concentration: inputFRL700
     irf: irf1
     scale: scale.FRL700
   FRL740:
-    megacomplex: [complexFRL740,QcomplexFRL]
-    megacomplex_scale: [scalem.1,scalem.FRL670Q]
+    megacomplex: [complexFRL740, QcomplexFRL]
+    megacomplex_scale: [scalem.1, scalem.FRL670Q]
     initial_concentration: inputFRL740
     irf: irf1
     scale: scale.FRL740
   WL700:
-    megacomplex: [complexWL700,QcomplexWL]
-    megacomplex_scale: [scalem.1,scalem.WL700Q]
+    megacomplex: [complexWL700, QcomplexWL]
+    megacomplex_scale: [scalem.1, scalem.WL700Q]
     initial_concentration: inputWL700
     irf: irf1
     scale: scale.WL700
   WL720:
-    megacomplex: [complexWL720,QcomplexWL]
-    megacomplex_scale: [scalem.1,scalem.WL720Q]
+    megacomplex: [complexWL720, QcomplexWL]
+    megacomplex_scale: [scalem.1, scalem.WL720Q]
     initial_concentration: inputWL720
     irf: irf1
     scale: scale.WL720
   Red1SADS:
     megacomplex:
-    - mc2
+      - mc2
     scale: scale.Red1SADS
   Red2SADS:
     megacomplex:
-    - mc3
+      - mc3
     scale: scale.Red2SADS
   WLRCSADS:
     megacomplex:
-    - mc4
+      - mc4
     scale: scale.WLRCSADS
   WLRP1SADS:
     megacomplex:
-    - mc5
+      - mc5
     scale: scale.WLRP1SADS
   Chlf1SADS:
     megacomplex:
-    - mc8
+      - mc8
     scale: scale.Chlf1SADS
   Chlf2SADS:
     megacomplex:
-    - mc9
+      - mc9
     scale: scale.Chlf2SADS
   FRLRCSADS:
     megacomplex:
-    - mc10
+      - mc10
     scale: scale.FRLRCSADS
   FRLRP1SADS:
     megacomplex:
-    - mc11
+      - mc11
     scale: scale.FRLRP1SADS
 
-
 megacomplex:
-# unique for streak
+  # unique for streak
   complexFRL:
-    k_matrix: [skmBulk,skmFRLRC,skmFRLRCtrap]
+    k_matrix: [skmBulk, skmFRLRC, skmFRLRCtrap]
   freeChla:
     k_matrix: [kmChla]
   freeChla2:
@@ -271,17 +281,17 @@ megacomplex:
   freeChlf:
     k_matrix: [kmChlf]
   complexWL:
-    k_matrix: [skmBulkWL,skmWLRC,skmWLRCtrap]
+    k_matrix: [skmBulkWL, skmWLRC, skmWLRCtrap]
   CF9212complexFRL:
-    k_matrix: [CF9212skmBulk,CF9212skmFRLRC,CF9212skmFRLRCtrap]
+    k_matrix: [CF9212skmBulk, CF9212skmFRLRC, CF9212skmFRLRCtrap]
   CF9212freeChla:
     k_matrix: [CF9212kmChla]
   CF9212freeChlf:
     k_matrix: [CF9212kmChlf]
   CF9212complexWL:
-    k_matrix: [CF9212skmBulkWL,CF9212skmWLRC,CF9212skmWLRCtrap]
+    k_matrix: [CF9212skmBulkWL, CF9212skmWLRC, CF9212skmWLRCtrap]
   CT7203complexFRL:
-    k_matrix: [CT7203skmBulk,CT7203skmFRLRC,CT7203skmFRLRCtrap]
+    k_matrix: [CT7203skmBulk, CT7203skmFRLRC, CT7203skmFRLRCtrap]
   CT7203freeChla:
     k_matrix: [CT7203kmChla]
   CT7203freeChla2:
@@ -289,15 +299,15 @@ megacomplex:
   CT7203freeChlf:
     k_matrix: [CT7203kmChlf]
   CT7203complexWL:
-    k_matrix: [CT7203skmBulkWL,CT7203skmWLRC,CT7203skmWLRCtrap]
+    k_matrix: [CT7203skmBulkWL, CT7203skmWLRC, CT7203skmWLRCtrap]
   Syn7335complexFRL:
-    k_matrix: [Syn7335skmBulk,Syn7335skmFRLRC,Syn7335skmFRLRCtrap]
+    k_matrix: [Syn7335skmBulk, Syn7335skmFRLRC, Syn7335skmFRLRCtrap]
   Syn7335freeChla:
     k_matrix: [Syn7335kmChla]
   Syn7335freeChlf:
     k_matrix: [Syn7335kmChlf]
   Syn7335complexWL:
-    k_matrix: [Syn7335skmBulkWL,Syn7335skmWLRC,Syn7335skmWLRCtrap]
+    k_matrix: [Syn7335skmBulkWL, Syn7335skmWLRC, Syn7335skmWLRCtrap]
   smc1:
     dimension: time
     target: sBulk
@@ -319,7 +329,7 @@ megacomplex:
     target: sChlf1
     type: clp-guide
   smc9:
-  # streak_guide_Chlf2:
+    # streak_guide_Chlf2:
     dimension: time
     target: sChlf2
     type: clp-guide
@@ -335,21 +345,21 @@ megacomplex:
     dimension: time
     target: freeChlf
     type: clp-guide
-# unique for TA
+  # unique for TA
   complexFRL740:
-    k_matrix: [kmBulkAnt1,kmBulk,kmFRLRC,kmFRLRP740]
+    k_matrix: [kmBulkAnt1, kmBulk, kmFRLRC, kmFRLRP740]
   complexFRL700:
-    k_matrix: [kmBulkAnt1,kmBulk,kmFRLRC,kmFRLRP700]
+    k_matrix: [kmBulkAnt1, kmBulk, kmFRLRC, kmFRLRP700]
   complexFRL670:
-    k_matrix: [kmBulkAnt1,kmBulk,kmFRLRC,kmFRLRP670]
+    k_matrix: [kmBulkAnt1, kmBulk, kmFRLRC, kmFRLRP670]
   QcomplexFRL:
-    k_matrix: [kmBulkAnt1,kmBulk,kmFRLRC,QkmFRL]
+    k_matrix: [kmBulkAnt1, kmBulk, kmFRLRC, QkmFRL]
   QcomplexWL:
-    k_matrix: [kmBulkAnt1WL,kmBulkWL,QkmWL]
+    k_matrix: [kmBulkAnt1WL, kmBulkWL, QkmWL]
   complexWL720:
-    k_matrix: [kmBulkAnt1WL,kmBulkWL,kmWLRC,kmWLRP720]
+    k_matrix: [kmBulkAnt1WL, kmBulkWL, kmWLRC, kmWLRP720]
   complexWL700:
-    k_matrix: [kmBulkAnt1WL,kmBulkWL,kmWLRC,kmWLRP700]
+    k_matrix: [kmBulkAnt1WL, kmBulkWL, kmWLRC, kmWLRP700]
   mc2:
     dimension: time
     target: Red1
@@ -394,8 +404,8 @@ k_matrix:
       (Red1, Red1): rates.kF
       (Red2, Red2): rates.kF
       (Bulk, Bulk): rates.kF
-# xrates correction for different numbers of Bulk Chl a pigments (78 vs 70)
-# yrates correction for different temperatures (6 vs 20 C)
+  # xrates correction for different numbers of Bulk Chl a pigments (78 vs 70)
+  # yrates correction for different temperatures (6 vs 20 C)
   kmBulkWL:
     matrix:
       (Bulk, Red1): xrates.ToBulkFromRed1
@@ -427,7 +437,7 @@ k_matrix:
       (FRLRC, Chlf1): yrates.ToFRLRCFromChlf1
       (Chlf1, Chlf1): rates.kF
       (Chlf2, Chlf2): rates.kF
-#
+  #
   skmBulk:
     matrix:
       (sBulk, sRed1): rates.ToBulkFromRed1
@@ -472,7 +482,7 @@ k_matrix:
       (sFRLRC, sChlf1): rates.ToFRLRCFromChlf1
       (sChlf1, sChlf1): rates.kF
       (sChlf2, sChlf2): rates.kF
-# unique for streak
+  # unique for streak
   skmFRLRCtrap:
     matrix:
       (sFRLRP1, sFRLRP1): rates.FRLRP1
@@ -486,7 +496,7 @@ k_matrix:
   kmChlf:
     matrix:
       (freeChlf, freeChlf): rates.kFf
-#
+  #
   CT7203skmBulk:
     matrix:
       (CT7203Bulk, CT7203Red1): CT7203rates.ToBulkFromRed1
@@ -531,7 +541,7 @@ k_matrix:
       (CT7203FRLRC, CT7203Chlf1): CT7203rates.ToFRLRCFromChlf1
       (CT7203Chlf1, CT7203Chlf1): CT7203rates.kF
       (CT7203Chlf2, CT7203Chlf2): CT7203rates.kF
-# unique for streak
+  # unique for streak
   CT7203skmFRLRCtrap:
     matrix:
       (CT7203FRLRP1, CT7203FRLRP1): CT7203rates.FRLRP1
@@ -590,7 +600,7 @@ k_matrix:
       (CF9212FRLRC, CF9212Chlf1): CF9212rates.ToFRLRCFromChlf1
       (CF9212Chlf1, CF9212Chlf1): CF9212rates.kF
       (CF9212Chlf2, CF9212Chlf2): CF9212rates.kF
-# unique for streak
+  # unique for streak
   CF9212skmFRLRCtrap:
     matrix:
       (CF9212FRLRP1, CF9212FRLRP1): CF9212rates.FRLRP1
@@ -601,7 +611,7 @@ k_matrix:
   CF9212kmChlf:
     matrix:
       (CF9212freeChlf, CF9212freeChlf): CF9212rates.kFf
-#
+  #
   Syn7335skmBulk:
     matrix:
       (Syn7335Bulk, Syn7335Red1): Syn7335rates.ToBulkFromRed1
@@ -646,7 +656,7 @@ k_matrix:
       (Syn7335FRLRC, Syn7335Chlf1): Syn7335rates.ToFRLRCFromChlf1
       (Syn7335Chlf1, Syn7335Chlf1): Syn7335rates.kF
       (Syn7335Chlf2, Syn7335Chlf2): Syn7335rates.kF
-# unique for streak
+  # unique for streak
   Syn7335skmFRLRCtrap:
     matrix:
       (Syn7335FRLRP1, Syn7335FRLRP1): Syn7335rates.FRLRP1
@@ -701,55 +711,211 @@ k_matrix:
       (Ant1, Bulk): rates.ToAnt1FromBulk
 
 initial_concentration:
-# unique for streak
+  # unique for streak
   inputFRL:
-    compartments: [sBulk,sRed1,sRed2,sFRLRC,sChlf1,sChlf2,freeChla,freeChlf,sFRLRP1]
-    parameters: [xinput.BulkFRL,input.Red1, input.Red2, input.RC,input.Chlf1, input.Chlf2, input.1, input.1, input.0]
+    compartments:
+      [sBulk, sRed1, sRed2, sFRLRC, sChlf1, sChlf2, freeChla, freeChlf, sFRLRP1]
+    parameters:
+      [
+        xinput.BulkFRL,
+        input.Red1,
+        input.Red2,
+        input.RC,
+        input.Chlf1,
+        input.Chlf2,
+        input.1,
+        input.1,
+        input.0,
+      ]
     exclude_from_normalize: [freeChla, freeChlf]
   inputWL:
-    compartments: [sBulk,sRed1,sRed2,sWLRC,freeChla,freeChla2,sWLRP1]
-    parameters: [input.Bulk,input.Red1, input.Red2, input.RC,input.1,input.1, input.0]
-    exclude_from_normalize: [freeChla,freeChla2]
+    compartments: [sBulk, sRed1, sRed2, sWLRC, freeChla, freeChla2, sWLRP1]
+    parameters:
+      [input.Bulk, input.Red1, input.Red2, input.RC, input.1, input.1, input.0]
+    exclude_from_normalize: [freeChla, freeChla2]
   CF9212inputFRL:
-    compartments: [CF9212Bulk,CF9212Red1,CF9212Red2,CF9212FRLRC,CF9212Chlf1,CF9212Chlf2,CF9212freeChla,CF9212freeChlf,CF9212FRLRP1]
-    parameters: [xinput.BulkFRL,input.Red1, input.Red2, input.RC,input.Chlf1, input.Chlf2, input.1, input.1, input.0]
-    exclude_from_normalize: [CF9212freeChla,CF9212freeChlf]
+    compartments:
+      [
+        CF9212Bulk,
+        CF9212Red1,
+        CF9212Red2,
+        CF9212FRLRC,
+        CF9212Chlf1,
+        CF9212Chlf2,
+        CF9212freeChla,
+        CF9212freeChlf,
+        CF9212FRLRP1,
+      ]
+    parameters:
+      [
+        xinput.BulkFRL,
+        input.Red1,
+        input.Red2,
+        input.RC,
+        input.Chlf1,
+        input.Chlf2,
+        input.1,
+        input.1,
+        input.0,
+      ]
+    exclude_from_normalize: [CF9212freeChla, CF9212freeChlf]
   CF9212inputWL:
-    compartments: [CF9212Bulk,CF9212Red1,CF9212Red2,CF9212WLRC,CF9212freeChla,CF9212WLRP1]
-    parameters: [input.Bulk,input.Red1, input.Red2, input.RC,input.1, input.0]
+    compartments:
+      [
+        CF9212Bulk,
+        CF9212Red1,
+        CF9212Red2,
+        CF9212WLRC,
+        CF9212freeChla,
+        CF9212WLRP1,
+      ]
+    parameters: [input.Bulk, input.Red1, input.Red2, input.RC, input.1, input.0]
     exclude_from_normalize: [CF9212freeChla]
   Syn7335inputFRL:
-    compartments: [Syn7335Bulk,Syn7335Red1,Syn7335Red2,Syn7335FRLRC,Syn7335Chlf1,Syn7335Chlf2,Syn7335freeChla,Syn7335freeChlf,Syn7335FRLRP1]
-    parameters: [xinput.BulkFRL,input.Red1, input.Red2, input.RC,input.Chlf1, input.Chlf2, input.1, input.1, input.0]
-    exclude_from_normalize: [Syn7335freeChla,Syn7335freeChlf]
+    compartments:
+      [
+        Syn7335Bulk,
+        Syn7335Red1,
+        Syn7335Red2,
+        Syn7335FRLRC,
+        Syn7335Chlf1,
+        Syn7335Chlf2,
+        Syn7335freeChla,
+        Syn7335freeChlf,
+        Syn7335FRLRP1,
+      ]
+    parameters:
+      [
+        xinput.BulkFRL,
+        input.Red1,
+        input.Red2,
+        input.RC,
+        input.Chlf1,
+        input.Chlf2,
+        input.1,
+        input.1,
+        input.0,
+      ]
+    exclude_from_normalize: [Syn7335freeChla, Syn7335freeChlf]
   Syn7335inputWL:
-    compartments: [Syn7335Bulk,Syn7335Red1,Syn7335Red2,Syn7335WLRC,Syn7335freeChla,Syn7335WLRP1]
-    parameters: [input.Bulk,input.Red1, input.Red2, input.RC,input.1, input.0]
+    compartments:
+      [
+        Syn7335Bulk,
+        Syn7335Red1,
+        Syn7335Red2,
+        Syn7335WLRC,
+        Syn7335freeChla,
+        Syn7335WLRP1,
+      ]
+    parameters: [input.Bulk, input.Red1, input.Red2, input.RC, input.1, input.0]
     exclude_from_normalize: [Syn7335freeChla]
   CT7203inputFRL:
-    compartments: [CT7203Bulk,CT7203Red1,CT7203Red2,CT7203FRLRC,CT7203Chlf1,CT7203Chlf2,CT7203freeChla,CT7203freeChlf,CT7203FRLRP1]
-    parameters: [xinput.BulkFRL,input.Red1, input.Red2, input.RC,input.Chlf1, input.Chlf2, input.1, input.1, input.0]
-    exclude_from_normalize: [CT7203freeChla,CT7203freeChlf]
+    compartments:
+      [
+        CT7203Bulk,
+        CT7203Red1,
+        CT7203Red2,
+        CT7203FRLRC,
+        CT7203Chlf1,
+        CT7203Chlf2,
+        CT7203freeChla,
+        CT7203freeChlf,
+        CT7203FRLRP1,
+      ]
+    parameters:
+      [
+        xinput.BulkFRL,
+        input.Red1,
+        input.Red2,
+        input.RC,
+        input.Chlf1,
+        input.Chlf2,
+        input.1,
+        input.1,
+        input.0,
+      ]
+    exclude_from_normalize: [CT7203freeChla, CT7203freeChlf]
   CT7203inputWL:
-    compartments: [CT7203Bulk,CT7203Red1,CT7203Red2,CT7203WLRC,CT7203freeChla,CT7203freeChla2,CT7203WLRP1]
-    parameters: [input.Bulk,input.Red1, input.Red2, input.RC,input.1,input.1, input.0]
-    exclude_from_normalize: [CT7203freeChla,CT7203freeChla2]
-# unique for TA
+    compartments:
+      [
+        CT7203Bulk,
+        CT7203Red1,
+        CT7203Red2,
+        CT7203WLRC,
+        CT7203freeChla,
+        CT7203freeChla2,
+        CT7203WLRP1,
+      ]
+    parameters:
+      [input.Bulk, input.Red1, input.Red2, input.RC, input.1, input.1, input.0]
+    exclude_from_normalize: [CT7203freeChla, CT7203freeChla2]
+  # unique for TA
   inputFRL670:
-    compartments: [Ant1,Bulk,Red1,Red2,FRLRC,FRLRP1,FRLRP2b,Chlf1,Chlf2]
-    parameters: [inputFRL670.Ant1,inputFRL670.Bulk, inputFRL670.Red1, inputFRL670.Red2, inputFRL670.FRLRC,inputFRL670.0,inputFRL670.0, inputFRL670.Chlf1, inputFRL670.Chlf2]
+    compartments: [Ant1, Bulk, Red1, Red2, FRLRC, FRLRP1, FRLRP2b, Chlf1, Chlf2]
+    parameters:
+      [
+        inputFRL670.Ant1,
+        inputFRL670.Bulk,
+        inputFRL670.Red1,
+        inputFRL670.Red2,
+        inputFRL670.FRLRC,
+        inputFRL670.0,
+        inputFRL670.0,
+        inputFRL670.Chlf1,
+        inputFRL670.Chlf2,
+      ]
   inputFRL700:
-    compartments: [Ant1,Bulk,Red1,Red2,FRLRC,FRLRP1,FRLRP2a,Chlf1,Chlf2]
-    parameters: [inputFRL700.Ant1,inputFRL700.Bulk, inputFRL700.Red1, inputFRL700.Red2, inputFRL700.FRLRC,inputFRL700.0,inputFRL700.0, inputFRL700.Chlf1, inputFRL700.Chlf2]
+    compartments: [Ant1, Bulk, Red1, Red2, FRLRC, FRLRP1, FRLRP2a, Chlf1, Chlf2]
+    parameters:
+      [
+        inputFRL700.Ant1,
+        inputFRL700.Bulk,
+        inputFRL700.Red1,
+        inputFRL700.Red2,
+        inputFRL700.FRLRC,
+        inputFRL700.0,
+        inputFRL700.0,
+        inputFRL700.Chlf1,
+        inputFRL700.Chlf2,
+      ]
   inputFRL740:
-    compartments: [Ant1,Bulk,Red1,Red2,FRLRC,FRLRP1,FRLRP2,Chlf1,Chlf2]
-    parameters: [inputFRL740.Ant1,inputFRL740.Bulk, inputFRL740.Red1, inputFRL740.Red2, inputFRL740.FRLRC,inputFRL740.0,inputFRL740.0, inputFRL740.Chlf1, inputFRL740.Chlf2]
+    compartments: [Ant1, Bulk, Red1, Red2, FRLRC, FRLRP1, FRLRP2, Chlf1, Chlf2]
+    parameters:
+      [
+        inputFRL740.Ant1,
+        inputFRL740.Bulk,
+        inputFRL740.Red1,
+        inputFRL740.Red2,
+        inputFRL740.FRLRC,
+        inputFRL740.0,
+        inputFRL740.0,
+        inputFRL740.Chlf1,
+        inputFRL740.Chlf2,
+      ]
   inputWL700:
-    compartments: [Ant1,Bulk,Red1,Red2,WLRC,WLRP1,WLRP2a]
-    parameters: [inputWL700.Ant1,inputWL700.Bulk, inputWL700.Red1, inputWL700.Red2, inputWL700.WLRC,inputWL700.0,inputWL700.0]
+    compartments: [Ant1, Bulk, Red1, Red2, WLRC, WLRP1, WLRP2a]
+    parameters:
+      [
+        inputWL700.Ant1,
+        inputWL700.Bulk,
+        inputWL700.Red1,
+        inputWL700.Red2,
+        inputWL700.WLRC,
+        inputWL700.0,
+        inputWL700.0,
+      ]
   inputWL720:
-    compartments: [Ant1,Bulk,Red1,Red2,WLRC,WLRP1,WLRP2]
-    parameters: [inputWL720.Ant1,inputWL720.Bulk, inputWL720.Red1, inputWL720.Red2, inputWL720.WLRC,input.0,input.0]
+    compartments: [Ant1, Bulk, Red1, Red2, WLRC, WLRP1, WLRP2]
+    parameters:
+      [
+        inputWL720.Ant1,
+        inputWL720.Bulk,
+        inputWL720.Red1,
+        inputWL720.Red2,
+        inputWL720.WLRC,
+        input.0,
+        input.0,
+      ]
 
 clp_penalties:
   - type: equal_area
@@ -1188,144 +1354,144 @@ irf:
   irfWLtr1:
     type: multi-gaussian
     center: [irfWLtr1.center]
-    width: [irfWLtr1.width1,irfWLtr1.width2]
-    scale: [irfWLtr1.scale1,irfWLtr1.scale2]
+    width: [irfWLtr1.width1, irfWLtr1.width2]
+    scale: [irfWLtr1.scale1, irfWLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   irfWLtr2:
     type: multi-gaussian
     center: [irfWLtr2.center]
-    width: [irfWLtr2.width1,irfWLtr2.width2]
-    scale: [irfWLtr2.scale1,irfWLtr2.scale2]
+    width: [irfWLtr2.width1, irfWLtr2.width2]
+    scale: [irfWLtr2.scale1, irfWLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   irfFRLtr1:
     type: multi-gaussian
     center: [irfFRLtr1.center]
-    width: [irfFRLtr1.width1,irfFRLtr1.width2]
-    scale: [irfFRLtr1.scale1,irfFRLtr1.scale2]
+    width: [irfFRLtr1.width1, irfFRLtr1.width2]
+    scale: [irfFRLtr1.scale1, irfFRLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   irfFRLtr2:
     type: multi-gaussian
     center: [irfFRLtr2.center]
-    width: [irfFRLtr2.width1,irfFRLtr2.width2]
-    scale: [irfFRLtr2.scale1,irfFRLtr2.scale2]
+    width: [irfFRLtr2.width1, irfFRLtr2.width2]
+    scale: [irfFRLtr2.scale1, irfFRLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   irfFRLtr4:
     type: multi-gaussian
     center: [irfFRLtr4.center]
-    width: [irfFRLtr4.width1,irfFRLtr4.width2]
-    scale: [irfFRLtr4.scale1,irfFRLtr4.scale2]
+    width: [irfFRLtr4.width1, irfFRLtr4.width2]
+    scale: [irfFRLtr4.scale1, irfFRLtr4.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
-#
+  #
   CF9212irfWLtr1:
     type: multi-gaussian
     center: [CF9212irfWLtr1.center]
-    width: [CF9212irfWLtr1.width1,CF9212irfWLtr1.width2]
-    scale: [CF9212irfWLtr1.scale1,CF9212irfWLtr1.scale2]
+    width: [CF9212irfWLtr1.width1, CF9212irfWLtr1.width2]
+    scale: [CF9212irfWLtr1.scale1, CF9212irfWLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CF9212irfWLtr2:
     type: multi-gaussian
     center: [CF9212irfWLtr2.center]
-    width: [CF9212irfWLtr2.width1,CF9212irfWLtr2.width2]
-    scale: [CF9212irfWLtr2.scale1,CF9212irfWLtr2.scale2]
+    width: [CF9212irfWLtr2.width1, CF9212irfWLtr2.width2]
+    scale: [CF9212irfWLtr2.scale1, CF9212irfWLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CF9212irfFRLtr1:
     type: multi-gaussian
     center: [CF9212irfFRLtr1.center]
-    width: [CF9212irfFRLtr1.width1,CF9212irfFRLtr1.width2]
-    scale: [CF9212irfFRLtr1.scale1,CF9212irfFRLtr1.scale2]
+    width: [CF9212irfFRLtr1.width1, CF9212irfFRLtr1.width2]
+    scale: [CF9212irfFRLtr1.scale1, CF9212irfFRLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CF9212irfFRLtr2:
     type: multi-gaussian
     center: [CF9212irfFRLtr2.center]
-    width: [CF9212irfFRLtr2.width1,CF9212irfFRLtr2.width2]
-    scale: [CF9212irfFRLtr2.scale1,CF9212irfFRLtr2.scale2]
+    width: [CF9212irfFRLtr2.width1, CF9212irfFRLtr2.width2]
+    scale: [CF9212irfFRLtr2.scale1, CF9212irfFRLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CF9212irfFRLtr4:
     type: multi-gaussian
     center: [CF9212irfFRLtr4.center]
-    width: [CF9212irfFRLtr4.width1,CF9212irfFRLtr4.width2]
-    scale: [CF9212irfFRLtr4.scale1,CF9212irfFRLtr4.scale2]
+    width: [CF9212irfFRLtr4.width1, CF9212irfFRLtr4.width2]
+    scale: [CF9212irfFRLtr4.scale1, CF9212irfFRLtr4.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
-#
+  #
   Syn7335irfWLtr1:
     type: multi-gaussian
     center: [Syn7335irfWLtr1.center]
-    width: [Syn7335irfWLtr1.width1,Syn7335irfWLtr1.width2]
-    scale: [Syn7335irfWLtr1.scale1,Syn7335irfWLtr1.scale2]
+    width: [Syn7335irfWLtr1.width1, Syn7335irfWLtr1.width2]
+    scale: [Syn7335irfWLtr1.scale1, Syn7335irfWLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   Syn7335irfWLtr2:
     type: multi-gaussian
     center: [Syn7335irfWLtr2.center]
-    width: [Syn7335irfWLtr2.width1,Syn7335irfWLtr2.width2]
-    scale: [Syn7335irfWLtr2.scale1,Syn7335irfWLtr2.scale2]
+    width: [Syn7335irfWLtr2.width1, Syn7335irfWLtr2.width2]
+    scale: [Syn7335irfWLtr2.scale1, Syn7335irfWLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   Syn7335irfFRLtr1:
     type: multi-gaussian
     center: [Syn7335irfFRLtr1.center]
-    width: [Syn7335irfFRLtr1.width1,Syn7335irfFRLtr1.width2]
-    scale: [Syn7335irfFRLtr1.scale1,Syn7335irfFRLtr1.scale2]
+    width: [Syn7335irfFRLtr1.width1, Syn7335irfFRLtr1.width2]
+    scale: [Syn7335irfFRLtr1.scale1, Syn7335irfFRLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   Syn7335irfFRLtr2:
     type: multi-gaussian
     center: [Syn7335irfFRLtr2.center]
-    width: [Syn7335irfFRLtr2.width1,Syn7335irfFRLtr2.width2]
-    scale: [Syn7335irfFRLtr2.scale1,Syn7335irfFRLtr2.scale2]
+    width: [Syn7335irfFRLtr2.width1, Syn7335irfFRLtr2.width2]
+    scale: [Syn7335irfFRLtr2.scale1, Syn7335irfFRLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   Syn7335irfFRLtr4:
     type: multi-gaussian
     center: [Syn7335irfFRLtr4.center]
-    width: [Syn7335irfFRLtr4.width1,Syn7335irfFRLtr4.width2]
-    scale: [Syn7335irfFRLtr4.scale1,Syn7335irfFRLtr4.scale2]
+    width: [Syn7335irfFRLtr4.width1, Syn7335irfFRLtr4.width2]
+    scale: [Syn7335irfFRLtr4.scale1, Syn7335irfFRLtr4.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
-#
+  #
   CT7203irfWLtr1:
     type: multi-gaussian
     center: [CT7203irfWLtr1.center]
-    width: [CT7203irfWLtr1.width1,CT7203irfWLtr1.width2]
-    scale: [CT7203irfWLtr1.scale1,CT7203irfWLtr1.scale2]
+    width: [CT7203irfWLtr1.width1, CT7203irfWLtr1.width2]
+    scale: [CT7203irfWLtr1.scale1, CT7203irfWLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CT7203irfWLtr2:
     type: multi-gaussian
     center: [CT7203irfWLtr2.center]
-    width: [CT7203irfWLtr2.width1,CT7203irfWLtr2.width2]
-    scale: [CT7203irfWLtr2.scale1,CT7203irfWLtr2.scale2]
+    width: [CT7203irfWLtr2.width1, CT7203irfWLtr2.width2]
+    scale: [CT7203irfWLtr2.scale1, CT7203irfWLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CT7203irfFRLtr1:
     type: multi-gaussian
     center: [CT7203irfFRLtr1.center]
-    width: [CT7203irfFRLtr1.width1,CT7203irfFRLtr1.width2]
-    scale: [CT7203irfFRLtr1.scale1,CT7203irfFRLtr1.scale2]
+    width: [CT7203irfFRLtr1.width1, CT7203irfFRLtr1.width2]
+    scale: [CT7203irfFRLtr1.scale1, CT7203irfFRLtr1.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CT7203irfFRLtr2:
     type: multi-gaussian
     center: [CT7203irfFRLtr2.center]
-    width: [CT7203irfFRLtr2.width1,CT7203irfFRLtr2.width2]
-    scale: [CT7203irfFRLtr2.scale1,CT7203irfFRLtr2.scale2]
+    width: [CT7203irfFRLtr2.width1, CT7203irfFRLtr2.width2]
+    scale: [CT7203irfFRLtr2.scale1, CT7203irfFRLtr2.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   CT7203irfFRLtr4:
     type: multi-gaussian
     center: [CT7203irfFRLtr4.center]
-    width: [CT7203irfFRLtr4.width1,CT7203irfFRLtr4.width2]
-    scale: [CT7203irfFRLtr4.scale1,CT7203irfFRLtr4.scale2]
+    width: [CT7203irfFRLtr4.width1, CT7203irfFRLtr4.width2]
+    scale: [CT7203irfFRLtr4.scale1, CT7203irfFRLtr4.scale2]
     backsweep: True
     backsweep_period: irf.common_backsweep
   irf1:
@@ -1355,9 +1521,9 @@ weights:
   - datasets: [freeChlfSAS]
     global_interval: [100, 1000]
     value: 3.e-1
-# unique for TA
+  # unique for TA
   - datasets: [Red1SADS]
-# if omitted the weight applies everywhere
+    # if omitted the weight applies everywhere
     global_interval: [100, 1000]
     # this would be time
     # model_interval: [100, 1000]
@@ -1383,12 +1549,15 @@ weights:
   - datasets: [FRLRP1SADS]
     global_interval: [100, 1000]
     value: 0.7
-  - datasets: [CF9212FRLtr1,CF9212FRLtr2,CF9212FRLtr4,CF9212WLtr1,CF9212WLtr2]
+  - datasets:
+      [CF9212FRLtr1, CF9212FRLtr2, CF9212FRLtr4, CF9212WLtr1, CF9212WLtr2]
     global_interval: [100, 1000]
     value: 0.5
-  - datasets: [Syn7335FRLtr1,Syn7335FRLtr2,Syn7335FRLtr4,Syn7335WLtr1,Syn7335WLtr2]
+  - datasets:
+      [Syn7335FRLtr1, Syn7335FRLtr2, Syn7335FRLtr4, Syn7335WLtr1, Syn7335WLtr2]
     global_interval: [100, 1000]
     value: 0.5
-  - datasets: [CT7203FRLtr1,CT7203FRLtr2,CT7203FRLtr4,CT7203WLtr1,CT7203WLtr2]
+  - datasets:
+      [CT7203FRLtr1, CT7203FRLtr2, CT7203FRLtr4, CT7203WLtr1, CT7203WLtr2]
     global_interval: [100, 1000]
     value: 0.5

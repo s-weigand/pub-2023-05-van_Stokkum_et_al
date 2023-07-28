@@ -1,9 +1,8 @@
 name: Tests
 
 on:
-  # For now commented out since private repositories only have a limited amount of CI time
-  # push:
-  # pull_request:
+  push:
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -25,7 +24,11 @@ jobs:
     needs: [pre-commit]
     strategy:
       matrix:
-        case_study: [20230522PSI_TA_Scy6803target, 20230522target_linking25streak_and_TA_datasets]
+        case_study:
+          [
+            20230522PSI_TA_Scy6803target,
+            20230522target_linking25streak_and_TA_datasets,
+          ]
 
     steps:
       - name: Check out repo
